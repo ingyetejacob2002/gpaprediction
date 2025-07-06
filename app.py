@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import joblib 
+import os
 model=joblib.load('C://Users/user/Desktop/prediction/model.joblib')
 app = Flask(__name__)
 
